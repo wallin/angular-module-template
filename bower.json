@@ -1,0 +1,21 @@
+{
+	"name": "angular-module-template",
+	"version": "0.1.0",
+	"description": "Angular.JS for ...",
+	"author": "Sebastian Wallin",
+	"license": "MIT",
+	"homepage": "http://github.com/",
+	"main": "./build/angular-module-template.js",
+	"ignore": [
+	],
+	"dependencies": {
+		"angular": "~1.x"
+	},
+	"devDependencies": {
+		"angular-mocks": "~1.0.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/"
+	}
+}
