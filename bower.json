@@ -1,21 +1,30 @@
 {
-	"name": "angular-module-template",
-	"version": "0.1.0",
-	"description": "Angular.JS for ...",
-	"author": "Sebastian Wallin",
-	"license": "MIT",
-	"homepage": "http://github.com/",
-	"main": "./build/angular-module-template.js",
-	"ignore": [
-	],
-	"dependencies": {
-		"angular": "~1.x"
-	},
-	"devDependencies": {
-		"angular-mocks": "~1.0.x"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/"
-	}
+  "name": "angular-module-template",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sebastian Wallin"
+  },
+  "description": "Angular.JS for ...",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "main": "./build/angular-module-template.js",
+  "homepage": "http://github.com/",
+  "ignore": [
+    "package.json",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "spec",
+    "src"
+  ],
+  "dependencies": {
+    "angular": "~1.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  }
 }

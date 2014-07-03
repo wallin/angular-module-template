@@ -35,7 +35,21 @@ module.exports = function (grunt) {
             ext: ".js"
           }
         ]
+      },
+      test: {
+        files: [
+          {
+            expand: true,
+            cwd: 'spec',
+            src: "*.coffee",
+            dest: "build/spec",
+            ext: ".js"
+          }
+        ]
       }
+    },
+    coffeelint: {
+      app: ['src/*.coffee']
     },
     uglify: {
       dist: {
@@ -47,12 +61,13 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('test', [
+    'coffeelint',
+    'coffee',
     'karma'
   ]);
 
   grunt.registerTask('build', [
     'test',
-    'coffee',
     'uglify'
   ]);
 
